@@ -1,0 +1,31 @@
+body {
+    font-family: 'Alkatra', cursive;
+}
+
+.anik {
+    color: blue;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 40%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(0ba3d60362c7e6d256cfc1f37156bad9.jpg);
+}
