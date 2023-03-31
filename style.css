@@ -1,5 +1,7 @@
 body {
     font-family: 'Alkatra', cursive;
+    margin: 0;
+
 }
 
 .anik {
@@ -8,6 +10,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -27,5 +30,9 @@ section {
 }
 
 .top-banner {
+    background-image: url(0ba3d60362c7e6d256cfc1f37156bad9.jpg);
+}
+
+.half-width {
     background-image: url(0ba3d60362c7e6d256cfc1f37156bad9.jpg);
 }
