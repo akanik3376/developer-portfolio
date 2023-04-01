@@ -5,10 +5,10 @@ body {
 }
 
 .anik {
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 50px;
 }
@@ -16,6 +16,7 @@ section {
 .half-width {
     width: 40%;
     padding: 5%;
+
 }
 
 .half-width img {
@@ -35,4 +36,25 @@ section {
 
 .half-width {
     background-image: url(0ba3d60362c7e6d256cfc1f37156bad9.jpg);
+}
+
+.experience-area {
+    background-image: url(0ba3d60362c7e6d256cfc1f37156bad9.jpg);
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px grey;
+}
+
+#full-stack-developer {
+    border-left: 10px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 10px solid yellowgreen;
 }
